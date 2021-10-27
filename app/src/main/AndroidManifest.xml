@@ -10,10 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartManagerTwo">
         <activity
-            android:name=".MenuActivity"
-            android:exported="true"
-            android:label="@string/title_activity_menu"
-            android:theme="@style/Theme.SmartManagerTwo.NoActionBar" />
+            android:name=".ThuChi"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

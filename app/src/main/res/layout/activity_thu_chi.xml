@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    //top app bar trong
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/chu_dao"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_marginLeft="16dp"
+           android:layout_marginRight="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chi"
+            android:textSize="20dp"
+            android:fontFamily="@font/header2_bold_20"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="24dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_camera"
+           android:layout_marginEnd="16dp"
+            android:layout_marginRight="24dp"/>
+    </LinearLayout>
+
+    //
+ <com.google.android.material.tabs.TabLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="56dp"
+     app:tabIndicatorColor="@color/thu_cap"
+     app:tabTextColor="@color/chu_dao"
+     app:tabIndicatorHeight="2dp"
+     >
+     <com.google.android.material.tabs.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Chung"
+         />
+     <com.google.android.material.tabs.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Ngày"
+         />
+     <com.google.android.material.tabs.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Tuần"
+         />
+     <com.google.android.material.tabs.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Tháng"
+         />
+     <com.google.android.material.tabs.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Tổng"
+         />
+
+
+
+ </com.google.android.material.tabs.TabLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
