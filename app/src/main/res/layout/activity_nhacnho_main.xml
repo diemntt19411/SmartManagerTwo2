@@ -28,14 +28,44 @@
             android:textColor="@color/white"
             />
     </LinearLayout>
-    <TextView
-
+    <LinearLayout
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="Tạo mới nhắc nhở"
-       android:layout_marginTop="280dp"
-        android:textSize="16sp"/>
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thể loại"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:fontFamily="@font/body_medium_13"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Tên"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:fontFamily="@font/body_medium_13"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian nhắc"
+            android:layout_marginLeft="140dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:fontFamily="@font/body_medium_13"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvNhacNho"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:listSelector="@color/thay_trang"
+        />
+
+
 <!--    <ImageButton-->
 <!--        android:layout_width="60dp"-->
 <!--        android:layout_height="60dp"-->
@@ -47,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="bottom|right"
-        android:layout_marginTop="301.67dp"
+        android:layout_marginTop="241.67dp"
         android:layout_marginRight="16dp"
         android:src="@drawable/ic_dau_cong"
         app:tint="@color/white"
