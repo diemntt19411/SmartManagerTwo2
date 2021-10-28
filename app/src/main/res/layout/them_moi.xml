@@ -138,7 +138,8 @@
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_xam"
                 android:textSize="13dp"
-                android:hint="Nhập số tiền"/>
+                android:hint="Nhập số tiền"
+                android:backgroundTint="@color/mau_xam"/>
 
         </TableRow>
 
