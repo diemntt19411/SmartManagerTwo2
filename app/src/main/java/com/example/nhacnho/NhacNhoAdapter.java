@@ -51,6 +51,7 @@ public class NhacNhoAdapter extends BaseAdapter {
             holder.txtTheLoai=view.findViewById(R.id.txtNhacNhoTheLoai);
             holder.txtTen=view.findViewById(R.id.txtNhacNhoTen);
             holder.txtChuKy=view.findViewById(R.id.txtNhacNhoChuKy);
+
             holder.txtThoiGianNhac=view.findViewById(R.id.txtNhacNhoThoiGianNhac);
             view.setTag(holder);
             //Binding view

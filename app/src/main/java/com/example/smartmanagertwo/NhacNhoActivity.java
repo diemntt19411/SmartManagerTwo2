@@ -3,6 +3,8 @@ package com.example.smartmanagertwo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.nhacnho.NhacNho;
@@ -14,6 +16,7 @@ public class NhacNhoActivity extends AppCompatActivity {
     ListView lvNhacNho;
     ArrayList<NhacNho> nhacNhos;
     NhacNhoAdapter adapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,5 +47,6 @@ public class NhacNhoActivity extends AppCompatActivity {
     }
 
     private void addEvents() {
+
     }
 }
