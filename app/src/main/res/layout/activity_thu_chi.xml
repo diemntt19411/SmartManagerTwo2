@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chi"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:fontFamily="@font/header2_bold_20"
             android:textColor="@color/white"
             android:layout_weight="1"/>
@@ -48,7 +48,7 @@
     //
  <com.google.android.material.tabs.TabLayout
      android:layout_width="match_parent"
-     android:layout_height="wrap_content"
+     android:layout_height="56dp"
      android:layout_marginTop="56dp"
      app:tabIndicatorColor="@color/thu_cap"
      app:tabTextColor="@color/chu_dao"
@@ -84,8 +84,9 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center"
 
       >
 
@@ -98,7 +99,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:fontFamily="@font/body_medium_13"
-            android:textSize="13dp"
+            android:textSize="13sp"
             android:textColor="@color/mau_dam"/>
 
             <TextView
@@ -108,7 +109,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textColor="@color/mau_dam"/>
 
         </TableRow>
@@ -139,12 +140,12 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="168dp">
 
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="56dp"
                 android:text="18, Th2"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -155,7 +156,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="56dp"
                 android:text="2000000"
                 android:layout_weight="1"
                 android:gravity="center"
@@ -165,7 +166,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="56dp"
                 android:text="2000000"
                 android:layout_weight="1"
                 android:gravity="center"
