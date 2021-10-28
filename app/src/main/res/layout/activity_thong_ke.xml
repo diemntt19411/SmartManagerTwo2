@@ -10,103 +10,71 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/chu_dao"
-        android:gravity="center_vertical"
-        >
+        android:gravity="center_vertical">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_camera"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="32dp" />
+            android:src="@drawable/ic_back"
+            app:tint = "@color/white"
+            android:backgroundTint="@color/chu_dao"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chu_dao"
+            android:src="@drawable/ic_lich"
+            app:tint="@color/white" />
+
         <Spinner
             android:id="@+id/spCategory"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="180dp"
-            android:spinnerMode="dropdown"
-
-            />
-
-
+            android:spinnerMode="dropdown"/>
     </LinearLayout>
-    <TableLayout
+    <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-
-        >
-
-        <TableRow>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Thu"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chi"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
-
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="2000000"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="2000000"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/thu_cap"/>
-
-        </TableRow>
-    </TableLayout>
-
+        android:layout_height="56dp"
+        android:layout_marginTop="56dp"
+        app:tabIndicatorColor="@color/thu_cap"
+        app:tabTextColor="@color/chu_dao"
+        app:tabIndicatorHeight="2dp">
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thu" />
+    </com.google.android.material.tabs.TabLayout>
+    <LinearLayout
+        android:layout_width="333dp"
+        android:layout_height="270dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp">
         <ImageView
             android:layout_width="333dp"
             android:layout_height="270dp"
-            android:src="@drawable/ic_chu_de"
-            android:layout_marginTop="150dp"
-            android:layout_marginLeft="40dp"/>
+            android:src="@drawable/ic_donut_small"/>
+    </LinearLayout>
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp">
-
+        android:layout_marginTop="400dp">
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="99%"
-                android:background="#EF9393"
+                android:text="97%"
+                android:background="#4AD1B0"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
-                android:textColor="@color/mau_dam"
-                />
-
+                android:textColor="@color/mau_dam"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -116,76 +84,6 @@
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
                 android:textColor="@color/mau_dam"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="2000000"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/thu_cap"/>
-
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="1%"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_xam"
-                android:background="#AFDD7A"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="Giải trí"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_xam"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="2000000"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/thu_cap"/>
-
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="0%"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_xam"
-                android:background="#E1D888"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="Giao thông vận tải"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_xam"/>
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -195,8 +93,68 @@
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
                 android:textColor="@color/mau_dam"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2%"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/body_medium_13"
+                android:textSize="13dp"
+                android:textColor="@color/mau_dam"
+                android:background="#FF4268" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Giải trí"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/body_medium_13"
+                android:textSize="13dp"
+                android:textColor="@color/mau_dam"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="500000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/body_medium_13"
+                android:textSize="13dp"
+                android:textColor="@color/mau_dam"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1%"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/body_medium_13"
+                android:textSize="13dp"
+                android:textColor="@color/mau_dam"
+                android:background="#FDB713"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/body_medium_13"
+                android:gravity="center"
+                android:text="Sở thích"
+                android:textColor="@color/mau_dam"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="50000"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/body_medium_13"
+                android:textSize="13dp"
+                android:textColor="@color/mau_dam"/>
         </TableRow>
     </TableLayout>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
