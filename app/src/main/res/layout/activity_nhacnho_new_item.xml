@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="Thể loại"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
@@ -49,7 +49,7 @@
            <EditText
                android:layout_width="256dp"
                android:layout_height="56dp"
-               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
                android:textColor="@color/mau_dam"
                />
 
@@ -60,7 +60,7 @@
                 android:layout_height="56dp"
                 android:text="Tên"
 
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
@@ -68,7 +68,7 @@
             <EditText
                 android:layout_width="256dp"
                 android:layout_height="56dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
 
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="Chu kỳ"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
@@ -86,7 +86,7 @@
             <EditText
                 android:layout_width="256dp"
                 android:layout_height="56dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
 
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="Ngày bắt đầu"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
@@ -104,7 +104,7 @@
             <EditText
                 android:layout_width="256dp"
                 android:layout_height="56dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
 
@@ -114,7 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="Giờ nhắc"
-                android:layout_marginLeft="35dp"
+                android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
@@ -122,7 +122,7 @@
             <EditText
                 android:layout_width="256dp"
                 android:layout_height="56dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
 
@@ -131,11 +131,15 @@
 <Button
     android:layout_width="match_parent"
     android:layout_height="56dp"
-    android:layout_marginTop="10dp"
+    android:layout_marginTop="39dp"
     android:layout_marginLeft="32dp"
     android:layout_marginRight="32dp"
+
     android:backgroundTint="@color/thay_trang"
     android:text="Tạo nhắc nhở"
-    android:textColor="@color/chu_dao"/>
+    android:textColor="@color/chu_dao"
+
+   />
+
 
 </LinearLayout>
