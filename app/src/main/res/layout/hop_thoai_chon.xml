@@ -2,7 +2,7 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:stretchColumns="*"
-    android:layout_height="match_parent">
+    android:layout_height="255dp">
 <TableRow
     android:layout_height="45dp"
     android:layout_width="match_parent"
@@ -31,7 +31,7 @@
     android:text="@string/giai_tri"
     android:textAllCaps="false"
     android:backgroundTint="@color/white"
-    android:textColor="@color/black"/>
+    android:textColor="@color/mau_dam"/>
 
         <Button
             android:layout_width="match_parent"
@@ -41,7 +41,7 @@
             android:drawableTint="#4AD1B0"
             android:text="@string/an_uong"
             android:textAllCaps="false"
-            android:textColor="@color/black" />
+            android:textColor="@color/mau_dam" />
         <Button
             android:layout_height="70dp"
             android:layout_width="match_parent"
@@ -50,7 +50,7 @@
             android:text="@string/so_thich"
             android:textAllCaps="false"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"/>
+            android:textColor="@color/mau_dam"/>
 
 
     </TableRow>
@@ -63,7 +63,7 @@
             android:text="@string/giao_duc"
             android:textAllCaps="false"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"/>
+            android:textColor="@color/mau_dam"/>
 
         <Button
             android:layout_width="match_parent"
@@ -73,7 +73,7 @@
             android:drawableTint="#FF4268"
             android:text="Sức khỏe"
             android:textAllCaps="false"
-            android:textColor="@color/black" />
+            android:textColor="@color/mau_dam" />
         <Button
             android:layout_height="70dp"
             android:layout_width="match_parent"
@@ -82,7 +82,7 @@
             android:text="@string/sinh_hoat"
             android:textAllCaps="false"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"/>
+            android:textColor="@color/mau_dam"/>
 
 
     </TableRow>
@@ -95,7 +95,7 @@
             android:text="@string/ao_quan"
             android:textAllCaps="false"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"/>
+            android:textColor="@color/mau_dam"/>
 
         <Button
             android:layout_width="match_parent"
@@ -105,7 +105,7 @@
             android:drawableTint="#18A0FB"
             android:text="@string/lam_dep"
             android:textAllCaps="false"
-            android:textColor="@color/black" />
+            android:textColor="@color/mau_dam" />
         <Button
             android:layout_height="70dp"
             android:layout_width="match_parent"
@@ -114,7 +114,7 @@
             android:text="@string/khac"
             android:textAllCaps="false"
             android:backgroundTint="@color/white"
-            android:textColor="@color/black"/>
+            android:textColor="@color/mau_dam"/>
 
 
     </TableRow>

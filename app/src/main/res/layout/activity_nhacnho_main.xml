@@ -38,7 +38,7 @@
             android:text="Thể loại"
             android:layout_marginLeft="16dp"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/black"
+            android:textColor="@color/mau_dam"
             android:fontFamily="@font/body_medium_13"/>
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:text="Tên"
             android:layout_marginLeft="50dp"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/black"
+            android:textColor="@color/mau_dam"
             android:fontFamily="@font/body_medium_13"/>
         <TextView
             android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
             android:text="Thời gian nhắc"
             android:layout_marginLeft="140dp"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/black"
+            android:textColor="@color/mau_dam"
             android:fontFamily="@font/body_medium_13"/>
     </LinearLayout>
     <ListView
