@@ -9,6 +9,6 @@ public class ThongKe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thong_ke);
+        setContentView(R.layout.activity_nhacnho_new_item);
     }
 }
