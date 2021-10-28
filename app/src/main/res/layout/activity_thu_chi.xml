@@ -17,9 +17,11 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_back"
+            android:src="@drawable/ic_menu"
             android:layout_marginLeft="16dp"
-           android:layout_marginRight="32dp"/>
+           android:layout_marginRight="32dp"
+            app:tint="@color/white"
+            android:backgroundTint="@color/chu_dao"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -33,16 +35,20 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_camera"
+            android:src="@drawable/ic_tim_kiem"
             android:layout_marginLeft="16dp"
-            android:layout_marginRight="24dp"/>
+            android:layout_marginRight="24dp"
+            app:tint="@color/white"
+            android:backgroundTint="@color/chu_dao"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_camera"
+            android:src="@drawable/ic_loc"
            android:layout_marginEnd="16dp"
-            android:layout_marginRight="24dp"/>
+            android:layout_marginRight="24dp"
+            app:tint="@color/white"
+            android:backgroundTint="@color/chu_dao"/>
     </LinearLayout>
 
     //
@@ -244,8 +250,21 @@
         </TableRow>
     </TableLayout>
 
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+<!--    -->
+<!--    app:fabSize="mini"/>-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnThemMoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_them_moi"
+        app:tint="@color/white"
+        android:backgroundTint="@color/thu_cap"
+        >
 
-
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
