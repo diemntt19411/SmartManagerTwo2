@@ -36,10 +36,24 @@
         android:text="Tạo mới nhắc nhở"
        android:layout_marginTop="280dp"
         android:textSize="16sp"/>
-    <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/ic_plus_icon"
-        android:layout_marginTop="275dp"
-        android:layout_marginLeft="316dp"/>
+<!--    <ImageButton-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:src="@drawable/ic_plus_icon"-->
+<!--        android:layout_marginTop="275dp"-->
+<!--        android:layout_marginLeft="316dp"/>-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnThemMoi"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="301.67dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_dau_cong"
+        app:tint="@color/white"
+        android:backgroundTint="@color/thu_cap"
+        >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
 </LinearLayout>

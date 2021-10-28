@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    android:layout_height="match_parent">
+<TableRow
+    android:layout_height="45dp"
+    android:layout_width="match_parent"
+    android:background="@color/chu_dao"
+    android:paddingLeft="16dp"
+    android:gravity="center_vertical"
+    >
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:text="@string/the_loai"
+        android:textSize="20sp"
+        android:layout_span="3"
+
+        android:textColor="@color/white"/>
+
+</TableRow>
+    <TableRow>
+<Button
+    android:layout_height="70dp"
+    android:layout_width="match_parent"
+    android:drawableLeft="@drawable/ic_giai_tri"
+    android:drawableTint="#FF4268"
+    android:text="@string/giai_tri"
+    android:textAllCaps="false"
+    android:backgroundTint="@color/white"
+    android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_thuc_pham"
+            android:drawableTint="#4AD1B0"
+            android:text="@string/an_uong"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_sao_thich"
+            android:drawableTint="#CD59EA"
+            android:text="@string/so_thich"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_di_chuyen"
+            android:drawableTint="#18A0FB"
+            android:text="@string/giao_duc"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_suc_khoe_1"
+            android:drawableTint="#FF4268"
+            android:text="Sức khỏe"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_home"
+            android:drawableTint="#5CDC70"
+            android:text="@string/sinh_hoat"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_quan_ao"
+            android:drawableTint="#5CDC70"
+            android:text="@string/ao_quan"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_lam_dep"
+            android:drawableTint="#18A0FB"
+            android:text="@string/lam_dep"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_tuy_chon"
+            android:drawableTint="#CD59EA"
+            android:text="@string/khac"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+
+    </TableRow>
+</TableLayout>

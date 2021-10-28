@@ -137,6 +137,8 @@
 
     android:backgroundTint="@color/thay_trang"
     android:text="Tạo nhắc nhở"
+    android:textSize="16sp"
+    android:textAllCaps="false"
     android:textColor="@color/chu_dao"
 
    />
