@@ -23,13 +23,13 @@
         </activity>
         <activity
             android:name=".NhacNhoActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ThuChi"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
