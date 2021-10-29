@@ -2,6 +2,7 @@ package com.example.smartmanagertwo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,11 +18,10 @@ public class NhacNhoActivity extends AppCompatActivity {
     ArrayList<NhacNho> nhacNhos;
     NhacNhoAdapter adapter;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nhacnho_main);
+        setContentView(R.layout.activity_nhacnho_new_item);
         linkViews();
         initData();
         loadData();

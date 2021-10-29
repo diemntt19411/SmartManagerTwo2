@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
     <LinearLayout
@@ -28,28 +29,27 @@
             android:textColor="@color/white"
             android:layout_weight="1"/>
     </LinearLayout>
-    <LinearLayout
+
+    <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:gravity="center">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thu"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="15dp"
-            android:layout_weight="1"
-            android:textColor="@color/chu_dao"
-            android:background="@drawable/bg_button"/>
-        <Button
+        app:tabIndicatorColor="@color/thu_cap"
+        app:tabTextColor="@color/chu_dao"
+        app:tabIndicatorHeight="2dp"
+        >
+        <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chi"
-            android:layout_weight="1"
-            android:layout_marginRight="32dp"
-            android:textColor="@color/chu_dao"
-            android:background="@drawable/bg_button"/>
-    </LinearLayout>
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thu"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+
 
     <TableLayout
         android:layout_width="match_parent"
@@ -144,5 +144,17 @@
         </TableRow>
 
     </TableLayout>
+
+
+
+       <fragment
+           android:id="@+id/fragmentTheLoai"
+           android:name="com.example.smartmanagertwo.TheLoaiFragment"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="50dp"
+
+           tools:layout="@layout/fragment_the_loai" />
+
 
 </LinearLayout>
