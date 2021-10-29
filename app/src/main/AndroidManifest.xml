@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartManagerTwo">
         <activity
+            android:name=".TaiKhoan"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ThemMoi"
             android:exported="true" />
         <activity
@@ -23,13 +32,13 @@
         </activity>
         <activity
             android:name=".NhacNhoActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ThuChi"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

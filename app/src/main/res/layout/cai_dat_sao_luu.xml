@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/thay_trang">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/chu_dao"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="32dp"
+            app:tint="@color/white"
+            android:backgroundTint="@color/chu_dao"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sao lưu"
+            android:textSize="20sp"
+            android:fontFamily="@font/header2_bold_20"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="Google Drive Sao lưu"
+            android:fontFamily="@font/body_medium_13"
+            android:textColor="@color/mau_dam"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="Thiết bị"
+            android:fontFamily="@font/body_medium_13"
+            android:textColor="@color/mau_dam"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:text="Thiết lập lại"
+        android:fontFamily="@font/body_medium_13"
+        android:textColor="@color/mau_dam"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="Tất cả khởi tạo"
+            android:fontFamily="@font/body_medium_13"
+            android:textColor="@color/mau_dam"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="Chu kỳ khởi tạo"
+            android:fontFamily="@font/body_medium_13"
+            android:textColor="@color/mau_dam"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
