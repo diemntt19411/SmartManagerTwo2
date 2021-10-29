@@ -49,6 +49,7 @@
            <EditText
                android:id="@+id/edtNhacNhoThemTheLoai"
                android:layout_width="256dp"
+               android:editable="false"
                android:backgroundTint="@color/mau_xam"
                android:layout_height="56dp"
                android:layout_marginRight="30dp"
@@ -71,6 +72,7 @@
                 android:id="@+id/edtNhacNhoThemTen"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_width="256dp"
+
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
@@ -91,6 +93,7 @@
                 android:id="@+id/edtNhacNhoThemChuKy"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_width="256dp"
+                android:editable="false"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
@@ -111,6 +114,7 @@
                 android:id="@+id/edtNhacNhoThemNgayBatDau"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
+                android:editable="false"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
@@ -130,6 +134,7 @@
             <EditText
                 android:id="@+id/edtNhacNhoThemGioNhac"
                 android:layout_width="256dp"
+                android:editable="false"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
