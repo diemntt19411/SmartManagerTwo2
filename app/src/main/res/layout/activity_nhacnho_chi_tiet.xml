@@ -64,11 +64,12 @@
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
             <EditText
-                android:id="@+id/edtNhacNhoThemTheLoai"
+                android:id="@+id/edtNhacNhoChiTietTheLoai"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
+                android:backgroundTint="@color/mau_xam"
                 />
 
         </TableRow>
@@ -84,11 +85,12 @@
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
             <EditText
-                android:id="@+id/edtNhacNhoThemTên"
+                android:id="@+id/edtNhacNhoChiTietTên"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
+                android:backgroundTint="@color/mau_xam"
                 />
 
         </TableRow>
@@ -103,10 +105,11 @@
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
             <EditText
-                android:id="@+id/edtNhacNhoThemChuKy"
+                android:id="@+id/edtNhacNhoChiTietChuKy"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
+                android:backgroundTint="@color/mau_xam"
                 android:textColor="@color/mau_dam"
                 />
 
@@ -122,9 +125,10 @@
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
             <EditText
-                android:id="@+id/edtNhacNhoThemNgayBatDau"
+                android:id="@+id/edtNhacNhoChiTietNgayBatDau"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
+                android:backgroundTint="@color/mau_xam"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
@@ -141,9 +145,11 @@
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
             <EditText
+                android:id="@+id/edtNhacNhoChiTietGioNhac"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
+                android:backgroundTint="@color/mau_xam"
                 android:textColor="@color/mau_dam"
                 />
 
