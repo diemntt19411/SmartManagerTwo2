@@ -23,6 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tạo nhắc nhở"
+
             android:textSize="20dp"
             android:fontFamily="@font/header2_bold_20"
             android:textColor="@color/white"
@@ -46,12 +47,12 @@
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
-           <EditText
-               android:id="@+id/edtNhacNhoThemTheLoai"
-               android:layout_width="256dp"
-               android:editable="false"
+           <TextView
+               android:id="@+id/txtNhacNhoThemTheLoai"
+               android:layout_width="match_parent"
                android:backgroundTint="@color/mau_xam"
                android:layout_height="56dp"
+               android:background="@drawable/textlines_khong"
                android:layout_marginRight="30dp"
                android:textColor="@color/mau_dam"
                />
@@ -71,7 +72,7 @@
             <EditText
                 android:id="@+id/edtNhacNhoThemTen"
                 android:backgroundTint="@color/mau_xam"
-                android:layout_width="256dp"
+                android:layout_width="match_parent"
 
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
@@ -89,11 +90,11 @@
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
-            <EditText
+            <TextView
                 android:id="@+id/edtNhacNhoThemChuKy"
-                android:backgroundTint="@color/mau_xam"
-                android:layout_width="256dp"
-                android:editable="false"
+
+                android:layout_width="match_parent"
+                android:background="@drawable/textlines_khong"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
@@ -110,12 +111,11 @@
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
-            <EditText
-                android:id="@+id/edtNhacNhoThemNgayBatDau"
+            <TextView
+                android:id="@+id/txtNhacNhoThemNgayBatDau"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
-                android:editable="false"
-                android:backgroundTint="@color/mau_xam"
+                android:background="@drawable/textlines_khong"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
@@ -131,11 +131,11 @@
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
-            <EditText
+            <TextView
                 android:id="@+id/edtNhacNhoThemGioNhac"
                 android:layout_width="256dp"
-                android:editable="false"
-                android:backgroundTint="@color/mau_xam"
+                android:background="@drawable/textlines_khong"
+
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
