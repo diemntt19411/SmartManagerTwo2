@@ -21,7 +21,7 @@ public class NhacNhoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nhacnho_new_item);
+        setContentView(R.layout.activity_nhacnho_main);
         linkViews();
         initData();
         loadData();
