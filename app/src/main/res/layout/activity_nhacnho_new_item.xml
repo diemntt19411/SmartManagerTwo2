@@ -17,6 +17,7 @@
             android:layout_marginLeft="16dp"
             android:backgroundTint="@color/chu_dao"
             android:layout_marginRight="32dp"
+
             app:tint="@color/white" />
 
         <TextView

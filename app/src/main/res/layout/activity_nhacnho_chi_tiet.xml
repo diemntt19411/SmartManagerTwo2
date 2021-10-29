@@ -15,6 +15,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_back"
             android:layout_marginLeft="16dp"
+
             android:layout_marginRight="32dp"
             app:tint="@color/white"
             android:backgroundTint="@color/chu_dao"/>
@@ -22,7 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chi"
+            android:text="Nhăc nhở"
             android:textSize="20sp"
             android:fontFamily="@font/header2_bold_20"
             android:textColor="@color/white"
@@ -34,6 +35,7 @@
             android:src="@drawable/ic_xoa"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="24dp"
+
             app:tint="@color/white"
             android:backgroundTint="@color/chu_dao"/>
 
@@ -41,6 +43,7 @@
 
             android:layout_width="50dp"
             android:layout_height="50dp"
+
             android:src="@drawable/ic_check"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="24dp"
