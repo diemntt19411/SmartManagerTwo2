@@ -12,7 +12,11 @@
         <activity
             android:name=".HopChonNhacNhoTheLoai"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".NhacNhoThemActivity"
@@ -24,18 +28,10 @@
             android:exported="true" />
         <activity
             android:name=".ThongKe"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".NhacNhoActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".ThuChi"
             android:exported="true" />

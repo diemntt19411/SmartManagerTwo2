@@ -40,7 +40,8 @@
             android:layout_marginRight="15dp"
             android:layout_weight="1"
             android:textColor="@color/chu_dao"
-            android:background="@drawable/bg_button"/>
+            android:background="@drawable/bg_button"
+            android:backgroundTint="@color/white"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,7 +49,8 @@
             android:layout_weight="1"
             android:layout_marginRight="32dp"
             android:textColor="@color/chu_dao"
-            android:background="@drawable/bg_button"/>
+            android:background="@drawable/bg_button"
+            android:backgroundTint="@color/white"/>
     </LinearLayout>
     <TableLayout
         android:layout_width="match_parent"
@@ -63,12 +65,16 @@
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
-            <EditText
+                android:textColor="@color/mau_xam"/>
+            <TextView
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
+                android:background="@drawable/textlines_chon"
+                android:text="18, Th2"
+                android:textSize="13dp"
+                android:textStyle="bold"
                 />
         </TableRow>
 
@@ -81,12 +87,17 @@
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
-            <EditText
+                android:textColor="@color/mau_xam"/>
+            <TextView
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
-                android:textColor="@color/mau_dam" />
+                android:textColor="@color/mau_dam"
+                android:background="@drawable/textlines_khong"
+                android:text="Tiền mặt"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                />
 
         </TableRow>
         <TableRow>
@@ -98,12 +109,16 @@
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
-            <EditText
+                android:textColor="@color/mau_xam"/>
+            <TextView
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
+                android:background="@drawable/textlines_khong"
+                android:text="Ăn uống"
+                android:textSize="13dp"
+                android:textStyle="bold"
                 />
         </TableRow>
 
@@ -116,12 +131,16 @@
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
                 android:textSize="13dp"
-                android:textColor="@color/mau_dam"/>
+                android:textColor="@color/mau_xam"/>
             <EditText
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
-                android:textColor="@color/mau_dam"/>
+                android:textSize="13dp"
+                android:hint="2000000"
+                android:backgroundTint="@color/mau_xam"
+                android:textColorHint="@color/mau_dam"
+                android:textStyle="bold"/>
 
         </TableRow>
 
@@ -137,7 +156,8 @@
         android:text="Lưu"
         android:textSize="16sp"
         android:textAllCaps="false"
-        android:textColor="@color/chu_dao"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/chu_dao"
 
         />
 </LinearLayout>

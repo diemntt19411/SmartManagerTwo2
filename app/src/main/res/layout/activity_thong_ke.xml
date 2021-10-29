@@ -30,7 +30,8 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="180dp"
-            android:spinnerMode="dropdown"/>
+            android:spinnerMode="dropdown"
+            />
     </LinearLayout>
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
