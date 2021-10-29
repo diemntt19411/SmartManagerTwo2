@@ -72,7 +72,7 @@
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
-                android:background="@drawable/textlines_chon"
+                android:background="@drawable/textlines_khong"
                 android:text="18, Th2"
                 android:textStyle="bold"
                 android:textSize="13dp"
@@ -94,10 +94,11 @@
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
-                android:textColor="@color/mau_xam"
+                android:textColor="@color/mau_dam"
                 android:background="@drawable/textlines_khong"
-                android:text="Chọn tài khoản"
+                android:text="Tiền mặt"
                 android:textSize="13dp"
+                android:textStyle="bold"
                 />
 
         </TableRow>
@@ -116,9 +117,10 @@
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_xam"
-                android:background="@drawable/textlines_khong"
+                android:background="@drawable/textlines_chon"
                 android:text="Chọn thể loại"
                 android:textSize="13dp"
+
                 />
         </TableRow>
 
