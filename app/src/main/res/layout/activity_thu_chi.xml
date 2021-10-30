@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
+
     //top app bar trong
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/chu_dao"
         android:gravity="center_vertical">
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -19,6 +22,7 @@
            android:layout_marginRight="32dp"
             app:tint="@color/white"
             android:backgroundTint="@color/chu_dao"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,6 +31,7 @@
             android:fontFamily="@font/header2_bold_20"
             android:textColor="@color/white"
             android:layout_weight="1"/>
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,6 +40,7 @@
             android:layout_marginRight="24dp"
             app:tint="@color/white"
             android:backgroundTint="@color/chu_dao"/>
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,6 +50,7 @@
             app:tint="@color/white"
             android:backgroundTint="@color/chu_dao"/>
     </LinearLayout>
+
     <com.google.android.material.tabs.TabLayout
      android:layout_width="match_parent"
      android:layout_height="56dp"
@@ -85,8 +92,12 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginTop="112dp"
-        android:gravity="center">
+        android:gravity="center"
+
+      >
+
         <TableRow>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,6 +107,7 @@
             android:fontFamily="@font/body_medium_13"
             android:textSize="13sp"
             android:textColor="@color/mau_dam"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -115,7 +127,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_dam"/>
 
             <TextView
@@ -125,14 +137,17 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/thu_cap"/>
+
         </TableRow>
     </TableLayout>
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="168dp">
+
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
@@ -141,9 +156,12 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_dam"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+
+                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
@@ -151,9 +169,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_dam"
                 android:textStyle="bold"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
@@ -161,10 +180,13 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/thu_cap"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                />
+
         </TableRow>
+
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
@@ -173,8 +195,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
-                android:textColor="@color/mau_xam"/>
+                android:textSize="13dp"
+                android:textColor="@color/mau_xam"
+                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -182,8 +206,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -191,8 +216,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/thu_cap"/>
+
         </TableRow>
         <TableRow>
             <TextView
@@ -202,8 +228,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
-                android:textColor="@color/mau_xam"/>
+                android:textSize="13dp"
+                android:textColor="@color/mau_xam"
+                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -211,8 +239,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -220,9 +249,11 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_dam"/>
+
         </TableRow>
+
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
@@ -231,9 +262,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_dam"
                 android:textStyle="bold"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
@@ -241,9 +273,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_dam"
                 android:textStyle="bold"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
@@ -252,9 +285,11 @@
                 android:gravity="center"
                 android:text="50000"
                 android:textColor="@color/thu_cap"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textStyle="bold"/>
+
         </TableRow>
+
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
@@ -263,8 +298,10 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
-                android:textColor="@color/mau_xam"/>
+                android:textSize="13dp"
+                android:textColor="@color/mau_xam"
+                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -272,8 +309,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -281,10 +319,14 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:textSize="13dp"
                 android:textColor="@color/thu_cap"/>
+
         </TableRow>
     </TableLayout>
+
+
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnThemMoi"
         android:layout_width="wrap_content"
@@ -293,6 +335,10 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_dau_cong"
         app:tint="@color/white"
-        android:backgroundTint="@color/thu_cap">
+        android:backgroundTint="@color/thu_cap"
+        >
+
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
