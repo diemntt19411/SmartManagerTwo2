@@ -104,7 +104,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_dau_cong"
+            android:src="@drawable/ic_anchor"
             android:layout_marginLeft="20dp"
             android:layout_gravity="center"/>
         <LinearLayout
