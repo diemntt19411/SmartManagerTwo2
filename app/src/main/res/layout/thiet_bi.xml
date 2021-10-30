@@ -43,7 +43,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/bg_button"
 
-        android:text="Tạo nhắc nhở"
+        android:text="Sao lưu dữ liệu"
         android:textSize="16sp"
         android:textAllCaps="false"
         android:textColor="@color/chu_dao"
