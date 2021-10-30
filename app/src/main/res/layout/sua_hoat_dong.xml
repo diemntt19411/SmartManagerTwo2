@@ -16,13 +16,12 @@
             android:layout_marginLeft="16dp"
             android:backgroundTint="@color/chu_dao"
             android:layout_marginRight="32dp"
-            app:tint="@color/white"
-            />
+            app:tint="@color/white"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chi"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:fontFamily="@font/header2_bold_20"
             android:textColor="@color/white"
             android:layout_weight="1"/>
@@ -33,23 +32,27 @@
         android:gravity="center">
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:text="Thu"
             android:layout_marginLeft="32dp"
             android:layout_marginRight="15dp"
             android:layout_weight="1"
             android:textColor="@color/chu_dao"
             android:background="@drawable/bg_button"
-            android:backgroundTint="@color/white"/>
+            android:backgroundTint="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/header3_semibold_14"/>
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:text="Chi"
             android:layout_weight="1"
             android:layout_marginRight="32dp"
             android:textColor="@color/chu_dao"
             android:background="@drawable/bg_button"
-            android:backgroundTint="@color/white"/>
+            android:backgroundTint="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/header3_semibold_14"/>
     </LinearLayout>
     <TableLayout
         android:layout_width="match_parent"
@@ -63,7 +66,7 @@
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textColor="@color/mau_xam"/>
             <TextView
                 android:layout_width="256dp"
@@ -72,8 +75,9 @@
                 android:textColor="@color/mau_dam"
                 android:background="@drawable/textlines_chon"
                 android:text="18, Th2"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/body_medium_13"
                 />
         </TableRow>
 
@@ -85,7 +89,7 @@
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textColor="@color/mau_xam"/>
             <TextView
                 android:layout_width="256dp"
@@ -94,8 +98,9 @@
                 android:textColor="@color/mau_dam"
                 android:background="@drawable/textlines_khong"
                 android:text="Tiền mặt"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/body_medium_13"
                 />
 
         </TableRow>
@@ -107,7 +112,7 @@
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textColor="@color/mau_xam"/>
             <TextView
                 android:layout_width="256dp"
@@ -116,8 +121,9 @@
                 android:textColor="@color/mau_dam"
                 android:background="@drawable/textlines_khong"
                 android:text="Ăn uống"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textStyle="bold"
+                android:fontFamily="@font/body_medium_13"
                 />
         </TableRow>
 
@@ -129,24 +135,25 @@
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textColor="@color/mau_xam"/>
             <EditText
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:hint="2000000"
                 android:backgroundTint="@color/mau_xam"
                 android:textColorHint="@color/mau_dam"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:fontFamily="@font/body_medium_13"/>
 
         </TableRow>
 
     </TableLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="36dp"
         android:gravity="center"
         android:layout_marginTop="39dp">
         <Button
@@ -157,7 +164,9 @@
             android:layout_marginRight="15dp"
             android:layout_weight="1"
             android:textColor="@color/chu_dao"
-            android:background="@drawable/bg_button"/>
+            android:background="@drawable/bg_button"
+            android:textSize="14sp"
+            android:fontFamily="@font/header3_semibold_14"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -165,6 +174,8 @@
             android:layout_weight="1"
             android:textColor="@color/chu_dao"
             android:layout_marginRight="32dp"
-            android:background="@drawable/bg_button"/>
+            android:background="@drawable/bg_button"
+            android:textSize="14sp"
+            android:fontFamily="@font/header3_semibold_14"/>
     </LinearLayout>
 </LinearLayout>
