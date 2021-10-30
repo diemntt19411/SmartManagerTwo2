@@ -1,14 +1,14 @@
 package com.example.smartmanagertwo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class CaiDatMatKhauXacNhan extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+public class NhacNhoChiTietActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cai_dat_mat_khau_doi_nhap_lai);
+        setContentView(R.layout.activity_nhacnho_chi_tiet);
+
     }
 }
