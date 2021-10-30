@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="355dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="239dp"
+            android:layout_gravity="center"
+            android:src="@drawable/anh2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:background="#668098AB"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/header2_bold_20"
+                android:text="Personal Finance Tips for 2020: “I will teach you to be rich"
+                android:textSize="20sp"
+                android:textColor="@color/mau_dam"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/body_medium_13"
+                android:textSize="13sp"
+                android:textColor="@color/mau_dam"
+                android:text="Master your money to get on with your life. Get on six-week plan for living out your 'rich life' as you define it." />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
