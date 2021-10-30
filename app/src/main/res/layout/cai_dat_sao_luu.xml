@@ -42,17 +42,19 @@
             android:textColor="@color/mau_dam"
             android:gravity="center"
             android:textSize="13sp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:layout_marginRight="200dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="56dp"
             android:text="Tắt"
             android:fontFamily="@font/body_medium_13"
             android:textColor="@color/mau_dam"
-            android:layout_marginLeft="230dp"
+            android:layout_weight="1"
             android:gravity="center"
             android:textSize="13sp"
-            android:layout_weight="1"/>
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
