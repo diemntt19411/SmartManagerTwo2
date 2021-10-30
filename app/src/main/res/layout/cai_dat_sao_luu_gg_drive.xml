@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/chu_dao"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="32dp"
+            app:tint="@color/white"
+            android:backgroundTint="@color/chu_dao"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Drive"
+            android:textSize="20sp"
+            android:fontFamily="@font/header2_bold_20"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Drive Sao lưu "
+        android:textSize="20dp"
+        android:fontFamily="@font/header2_bold_20"
+        android:textColor="@color/mau_dam"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Ổ đĩa Goole là nơi lưu trữ trực tuyến miễn phí từ Google hỗ trợ. Bạn có thể tự động sao lưu dữ liệu của bạn vào Google Drive. Bạn có thể khôi phục lại nó bất cứ lúc nào."
+        android:textColor="@color/mau_dam"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/thay_trang"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL"
+            android:textSize="14dp"
+            android:textColor="@color/mau_xam"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/header3_semibold_14"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://drive.google.com"
+            android:textColor="@color/chu_dao"
+            android:fontFamily="@font/body_medium_13"
+            android:textSize="13dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/thay_trang"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="Google Drive Sao lưu"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/header3_semibold_14"
+                android:textColor="@color/mau_dam"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/chu_dao"
+            android:background="@drawable/bg_button"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

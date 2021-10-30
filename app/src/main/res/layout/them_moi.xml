@@ -73,6 +73,7 @@
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 android:background="@drawable/textlines_khong"
+                android:fontFamily="@font/body_medium_13"
                 android:text="18, Th2"
                 android:textStyle="bold"
                 android:textSize="13dp"
@@ -99,6 +100,7 @@
                 android:text="Tiền mặt"
                 android:textSize="13dp"
                 android:textStyle="bold"
+                android:fontFamily="@font/body_medium_13"
                 />
 
         </TableRow>
@@ -120,7 +122,7 @@
                 android:background="@drawable/textlines_chon"
                 android:text="Chọn thể loại"
                 android:textSize="13dp"
-
+                android:fontFamily="@font/body_medium_13"
                 />
         </TableRow>
 
@@ -141,7 +143,8 @@
                 android:textColor="@color/mau_xam"
                 android:textSize="13dp"
                 android:hint="Nhập số tiền"
-                android:backgroundTint="@color/mau_xam"/>
+                android:backgroundTint="@color/mau_xam"
+                android:fontFamily="@font/body_medium_13"/>
 
         </TableRow>
 
