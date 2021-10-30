@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -8,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/chu_dao"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,55 +22,54 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Danh sách mua sắm"
+            android:text="Shopping"
             android:textSize="20sp"
             android:fontFamily="@font/header2_bold_20"
             android:textColor="@color/white"
             android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="24dp"
+            android:backgroundTint="@color/chu_dao"
+            android:src="@drawable/ic_chinh_sua"
+            app:tint="@color/white" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_xoa"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="24dp"
+            app:tint="@color/white"
+            android:backgroundTint="@color/chu_dao"/>
     </LinearLayout>
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         >
-        <TableRow >
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:text="Tên"
-                android:layout_marginLeft="30dp"
-                android:gravity="left"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13dp"
-                android:textColor="@color/mau_xam"/>
 
-            <EditText
-                android:id="@+id/edtNhacNhoChiTietTheLoai"
-                android:layout_width="287dp"
-                android:layout_height="56dp"
-                android:layout_marginRight="10dp"
-                android:backgroundTint="@color/mau_xam"
-                android:hint="Đặt tên cho danh sách mua sắm"
-                android:textColor="@color/mau_dam" />
-
-        </TableRow>
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="Tài khoản"
-
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
-                android:fontFamily="@font/body_medium_13"
+                android:fontFamily="@font/header3_semibold_14"
                 android:textSize="13dp"
                 android:textColor="@color/mau_xam"/>
             <EditText
                 android:id="@+id/edtNhacNhoChiTietTên"
                 android:layout_width="256dp"
                 android:layout_height="56dp"
-                android:hint="Chọn tài khoản"
+                android:text="Tiền mặt"
+                android:fontFamily="@font/header3_semibold_14"
                 android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
                 android:textColor="@color/mau_dam"
                 android:backgroundTint="@color/mau_xam"
                 />
@@ -89,6 +90,9 @@
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:hint="Chọn thể loại"
+                android:fontFamily="@font/header3_semibold_14"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="@color/mau_xam"
                 android:textColor="@color/mau_dam"
@@ -102,7 +106,7 @@
                 android:text="Số tiền"
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
-                android:fontFamily="@font/body_medium_13"
+                android:fontFamily="@font/header3_semibold_14"
                 android:textSize="13sp"
                 android:textColor="@color/mau_xam"/>
             <EditText
@@ -110,6 +114,8 @@
                 android:layout_width="256dp"
                 android:layout_height="56dp"
                 android:hint="Nhập số tiền"
+                android:fontFamily="@font/header3_semibold_14"
+                android:layout_marginStart="10dp"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_marginRight="10dp"
                 android:textColor="@color/mau_dam"
@@ -118,16 +124,23 @@
     </TableLayout>
     <Button
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginTop="39dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="150dp"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:background="@drawable/bg_button"
-
-        android:text="Tạo danh sách"
+        android:text="Thêm"
         android:textSize="16sp"
         android:textAllCaps="false"
         android:textColor="@color/chu_dao"
 
         />
+    <fragment
+        android:id="@+id/fragmentTheLoai"
+        android:name="com.example.smartmanagertwo.TheLoaiFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginen="0dp"
+
+        tools:layout="@layout/fragment_the_loai" />
 </LinearLayout>
