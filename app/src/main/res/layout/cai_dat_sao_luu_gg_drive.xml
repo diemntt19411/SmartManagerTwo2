@@ -53,7 +53,9 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="10dp"
         android:text="Ổ đĩa Goole là nơi lưu trữ trực tuyến miễn phí từ Google hỗ trợ. Bạn có thể tự động sao lưu dữ liệu của bạn vào Google Drive. Bạn có thể khôi phục lại nó bất cứ lúc nào."
-        android:textColor="@color/mau_dam"/>
+        android:textColor="@color/mau_dam"
+        android:fontFamily="@font/body_medium_13"
+        android:textSize="13sp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="36dp"
@@ -116,9 +118,9 @@
             <com.google.android.material.switchmaterial.SwitchMaterial
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:checked="true"
+            android:checked="false"
                 app:thumbTint="@color/white"
-                app:trackTint="@color/thu_cap"
+                app:trackTint="@color/mau_xam"
 
             />
 
