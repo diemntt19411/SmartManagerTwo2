@@ -60,9 +60,10 @@
             android:fontFamily="@font/body_medium_13"/>
     </LinearLayout>
     <ListView
+        android:layout_weight="1"
         android:id="@+id/lvNhacNho"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:listSelector="@color/thay_trang"
         />
 
@@ -73,12 +74,13 @@
 <!--        android:src="@drawable/ic_plus_icon"-->
 <!--        android:layout_marginTop="275dp"-->
 <!--        android:layout_marginLeft="316dp"/>-->
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnThemMoi"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="bottom|right"
-        android:layout_marginTop="241.67dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
         android:src="@drawable/ic_dau_cong"
         app:tint="@color/white"

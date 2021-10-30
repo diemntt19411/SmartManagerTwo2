@@ -53,6 +53,7 @@
                android:layout_width="match_parent"
                android:backgroundTint="@color/mau_xam"
                android:layout_height="56dp"
+               android:layout_weight="1"
                android:background="@drawable/textlines_khong"
                android:layout_marginRight="30dp"
                android:textColor="@color/mau_dam"
@@ -74,7 +75,7 @@
                 android:id="@+id/edtNhacNhoThemTen"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_width="match_parent"
-
+                android:layout_weight="1"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
@@ -97,6 +98,7 @@
                 android:layout_width="match_parent"
                 android:background="@drawable/textlines_khong"
                 android:layout_height="56dp"
+                android:layout_weight="1"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
                 />
@@ -114,8 +116,9 @@
                 android:textColor="@color/mau_xam"/>
             <TextView
                 android:id="@+id/txtNhacNhoThemNgayBatDau"
-                android:layout_width="256dp"
+                android:layout_width="match_parent"
                 android:layout_height="56dp"
+                android:layout_weight="1"
                 android:background="@drawable/textlines_khong"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
@@ -134,9 +137,9 @@
                 android:textColor="@color/mau_xam"/>
             <TextView
                 android:id="@+id/edtNhacNhoThemGioNhac"
-                android:layout_width="256dp"
+                android:layout_width="match_parent"
                 android:background="@drawable/textlines_khong"
-
+                android:layout_weight="1"
                 android:layout_height="56dp"
                 android:layout_marginRight="30dp"
                 android:textColor="@color/mau_dam"
