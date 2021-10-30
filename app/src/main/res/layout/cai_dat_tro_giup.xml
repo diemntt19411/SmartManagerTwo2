@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/chu_dao"
+        android:gravity="center_vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="16dp"
+            android:backgroundTint="@color/chu_dao"
+            android:layout_marginRight="32dp"
+            app:tint="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trợ giúp"
+            android:textSize="20sp"
+            android:fontFamily="@font/header2_bold_20"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Manager Help Center"
+        android:textSize="20sp"
+        android:textColor="@color/mau_dam"
+        android:gravity="center"
+        android:background="@drawable/textlines_khong"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money Manager Help Center > Android User Guide"
+        android:textColor="@color/chu_dao"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/header2_bold_20"
+        android:text="Android User Guide"
+        android:textColor="@color/mau_dam"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's new"
+        android:textColor="@color/mau_dam"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Android 4.5.x Update (September 2020)"
+        android:background="@drawable/textlines_khong"
+        android:textSize="13sp"
+        android:fontFamily="@font/body_medium_13"
+        android:textColor="@color/chu_dao"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Android 4.4.x Update (April 2020)"
+        android:background="@drawable/textlines_khong"
+        android:textSize="13sp"
+        android:fontFamily="@font/body_medium_13"
+        android:textColor="@color/chu_dao"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Android 4.3.x Update (November 2019)"
+        android:background="@drawable/textlines_khong"
+        android:textSize="13sp"
+        android:fontFamily="@font/body_medium_13"
+        android:textColor="@color/chu_dao"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Android 4.2.x Update (June 2019)"
+        android:background="@drawable/textlines_khong"
+        android:textSize="13sp"
+        android:fontFamily="@font/body_medium_13"
+        android:textColor="@color/chu_dao"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Android 4.1.x Update (December 2018)"
+        android:background="@drawable/textlines_khong"
+        android:textSize="13sp"
+        android:fontFamily="@font/body_medium_13"
+        android:textColor="@color/chu_dao"/>
+</LinearLayout>
