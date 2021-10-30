@@ -42,21 +42,21 @@
         <TableRow>
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:text="Tài khoản"
+                android:layout_height="wrap_content"
+                android:text="Tên"
                 android:layout_marginLeft="30dp"
-                android:gravity="left"
+                android:gravity="center|left"
                 android:fontFamily="@font/header3_semibold_14"
-                android:textSize="13dp"
+                android:textSize="14sp"
                 android:textColor="@color/mau_xam"/>
             <EditText
                 android:id="@+id/edtNhacNhoChiTietTên"
-                android:layout_width="256dp"
+                android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:text="Tiền mặt"
+                android:text="Đặt tên cho danh sách mua sắm"
                 android:fontFamily="@font/header3_semibold_14"
-                android:layout_marginRight="10dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
                 android:textColor="@color/mau_dam"
                 android:backgroundTint="@color/mau_xam"
                 />
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
-        android:layout_margin="30dp"
+        android:layout_margin="40dp"
         android:backgroundTint="@color/thu_cap"
         android:src="@drawable/ic_dau_cong"
         android:tint="@color/white" />

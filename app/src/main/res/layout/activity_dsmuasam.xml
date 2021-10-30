@@ -82,8 +82,7 @@
                 android:text="Thể loại"
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
-                android:fontFamily="@font/body_medium_13"
-                android:textSize="13sp"
+                android:fontFamily="@font/header3_semibold_14"
                 android:textColor="@color/mau_xam"/>
             <EditText
                 android:id="@+id/edtNhacNhoChiTietChuKy"
@@ -107,7 +106,7 @@
                 android:layout_marginLeft="30dp"
                 android:gravity="left"
                 android:fontFamily="@font/header3_semibold_14"
-                android:textSize="13sp"
+                android:textSize="14sp"
                 android:textColor="@color/mau_xam"/>
             <EditText
                 android:id="@+id/edtNhacNhoChiTietNgayBatDau"
@@ -115,6 +114,7 @@
                 android:layout_height="56dp"
                 android:hint="Nhập số tiền"
                 android:fontFamily="@font/header3_semibold_14"
+                android:textSize="14sp"
                 android:layout_marginStart="10dp"
                 android:backgroundTint="@color/mau_xam"
                 android:layout_marginRight="10dp"
@@ -140,7 +140,7 @@
         android:name="com.example.smartmanagertwo.TheLoaiFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginen="0dp"
+
 
         tools:layout="@layout/fragment_the_loai" />
 </LinearLayout>
