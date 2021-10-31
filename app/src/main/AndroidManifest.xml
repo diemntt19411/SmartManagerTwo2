@@ -11,6 +11,11 @@
         android:theme="@style/Theme.SmartManagerTwo">
         <activity android:name=".TaiKhoan"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".HopChonNhacNhoTheLoai"
@@ -53,11 +58,7 @@
         <activity
             android:name=".KetNoiTinTuc"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".KetNoiTinTucChiTiet"

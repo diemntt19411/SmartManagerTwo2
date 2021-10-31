@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/thay_trang">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
@@ -53,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_thong_ke"
-                android:layout_marginLeft="140dp"
+                android:layout_marginLeft="120dp"
                 android:layout_marginRight="32dp"
                 app:tint="@color/chu_dao"
                 android:backgroundTint="@color/white"/>
@@ -199,18 +200,23 @@
         </TableRow>
     </TableLayout>
     <TextView
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:background="@color/white"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnThemMoi"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="bottom|right"
-        android:layout_margin="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/thu_cap"
         android:src="@drawable/ic_dau_cong"
-        app:tint="@color/white"
-        android:backgroundTint="@color/thu_cap">
+        app:tint="@color/white">
+
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
 </LinearLayout>
