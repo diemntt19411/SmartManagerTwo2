@@ -33,7 +33,7 @@
 
     <fragment
         android:id="@+id/fragmentTinTuc1"
-        android:name="com.example.smartmanagertwo.TheLoaiFragment"
+        android:name="com.example.smartmanagertwo.TinTucFragment1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
@@ -41,9 +41,8 @@
         tools:layout="@layout/fragment_tintuc1" />
     <fragment
         android:id="@+id/fragmentTinTuc2"
-        android:name="com.example.smartmanagertwo.TheLoaiFragment"
+        android:name="com.example.smartmanagertwo.TinTucFragment2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         tools:layout="@layout/fragment_tintuc2" />
 </LinearLayout>
